@@ -9,7 +9,7 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -18,15 +18,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,16 +78,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Conn_01x08_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -156,8 +167,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -175,7 +197,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -193,7 +215,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -211,7 +233,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -229,7 +251,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -247,7 +269,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -257,6 +279,364 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:ZPDxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZPDxx"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mW Zener Diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZPDxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZPDxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -720,6 +1100,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -823,1068 +1328,298 @@
 		)
 	)
 	(junction
-		(at 83.82 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00d6ee22-2287-465b-b707-eb15658b5077")
-	)
-	(junction
-		(at 44.45 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b6335ce-c234-4658-ab96-3306689ad24e")
-	)
-	(junction
-		(at 44.45 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1306648b-c5f9-4ab9-a45f-a7e388a20e85")
-	)
-	(junction
-		(at 44.45 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13ea38bc-70f1-41c1-9f5f-0e558bfeded4")
-	)
-	(junction
-		(at 83.82 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "286de246-ef0b-4882-a054-2b60a81168aa")
-	)
-	(junction
-		(at 83.82 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "287cf251-02a9-486c-9df4-1c81629f7bd9")
-	)
-	(junction
-		(at 129.54 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "378ef0a9-58a4-41dc-a373-7394a6ebcc07")
-	)
-	(junction
 		(at 44.45 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39379ab9-82e6-4d76-b14f-81f861548d8a")
-	)
-	(junction
-		(at 83.82 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a62bef0-a6e6-4976-8260-37bcb60afd12")
-	)
-	(junction
-		(at 44.45 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e0c43cc-a09b-47ac-953a-9e45736af871")
-	)
-	(junction
-		(at 127 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46ea603b-5b98-4388-addc-3f90ff041924")
-	)
-	(junction
-		(at 44.45 264.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5549fdb1-bf66-430e-8535-17f9d5f3f570")
-	)
-	(junction
-		(at 44.45 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "574f48a1-44b3-4782-a4d5-9c460eec3bb8")
-	)
-	(junction
-		(at 38.1 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6212867a-26fe-4de8-8155-eb3c9d21cba3")
-	)
-	(junction
-		(at 44.45 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63afe879-9255-4617-9754-f1f9237c56fa")
-	)
-	(junction
-		(at 83.82 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64a084af-4c64-4cff-9a19-1671f118ae9a")
-	)
-	(junction
-		(at 133.35 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6964fa55-7ce5-4a06-8192-613a255e13f3")
-	)
-	(junction
-		(at 44.45 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cf63157-10d3-4f79-b7ce-d74ff221d7f3")
-	)
-	(junction
-		(at 83.82 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d20c2be-d5f7-4544-9b5d-c4d208062f34")
-	)
-	(junction
-		(at 133.35 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cbc29f3-b578-4344-bc15-1fc217c53299")
-	)
-	(junction
-		(at 83.82 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d334dff-6613-4fe4-bb3f-79c3d3da2057")
-	)
-	(junction
-		(at 83.82 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fd33286-4e76-4de8-9212-3b85c2933da9")
-	)
-	(junction
-		(at 44.45 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80991758-d08a-49f9-8719-50f7abd47f88")
-	)
-	(junction
-		(at 40.64 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "810594e5-f447-4cde-877c-b31df2ffcde6")
-	)
-	(junction
-		(at 133.35 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81379d17-75b5-4577-a82c-baf1604e7451")
-	)
-	(junction
-		(at 38.1 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85d693c7-e76b-4f76-9a87-d65c4ffc02bd")
+		(uuid "0376d4a9-9202-40f4-abca-80ea2280046d")
 	)
 	(junction
 		(at 50.8 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8727b157-4146-4887-817b-407697638387")
+		(uuid "11f3f4e8-be56-40e8-b14f-bd183a880142")
+	)
+	(junction
+		(at 44.45 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213d7a5f-f42b-4cb5-a092-3a76ea206803")
+	)
+	(junction
+		(at 83.82 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "286e656e-fc93-4177-b4ba-883da8267ae8")
+	)
+	(junction
+		(at 83.82 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f657580-cba8-47ad-8fee-32674f03f0a4")
+	)
+	(junction
+		(at 107.95 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e90d29d-5fe9-4adf-9c99-c213a7c4ffd3")
+	)
+	(junction
+		(at 83.82 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418a6533-95cb-4f1e-926d-5e9b9d82e578")
+	)
+	(junction
+		(at 44.45 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c0a6dd7-4550-4b7f-9887-f0397a2f5ea7")
+	)
+	(junction
+		(at 83.82 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fe1de8a-8ca8-4bd4-b872-dbc70022cd23")
+	)
+	(junction
+		(at 83.82 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51929f68-b4f0-4766-bf37-e25179a8f306")
 	)
 	(junction
 		(at 139.7 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8db30e1d-2fac-4232-9ec2-9d9b3513d69a")
+		(uuid "5c122fe9-ceeb-43f4-902a-77d5548aeeab")
 	)
 	(junction
-		(at 83.82 228.6)
+		(at 38.1 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c8caf10-d179-47c4-b3cc-246ed9ce0f9f")
+		(uuid "605fb6c3-f6b5-4903-b164-30b28f872ab0")
 	)
 	(junction
-		(at 44.45 99.06)
+		(at 83.82 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb88e8e2-4909-4199-b245-f588808ec390")
+		(uuid "63d83879-2817-4e5c-82ac-406e1fcb99cc")
 	)
 	(junction
-		(at 139.7 76.2)
+		(at 44.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc2448ab-a984-47f4-b72d-dd111b9f903d")
+		(uuid "68cbf0e8-f264-43a5-9bc5-eec090b5eef2")
 	)
 	(junction
-		(at 133.35 48.26)
+		(at 83.82 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6501b55-2513-4ad8-8e77-c6074de8f70f")
+		(uuid "6ee1a0ed-e7f9-401e-b827-2e6abff8cdf1")
 	)
 	(junction
-		(at 44.45 203.2)
+		(at 107.95 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd2f9b88-d17d-4d98-8de5-7aa0be7d730f")
+		(uuid "7e39cf55-9b6a-430b-a286-ea7baba81cd9")
 	)
 	(junction
-		(at 50.8 127)
+		(at 95.25 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cdd5eef4-d66c-4a4c-9bc0-a90fcaa3e551")
-	)
-	(junction
-		(at 133.35 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0d2bd6c-b1f0-4837-88ae-fb34a6d1aaba")
-	)
-	(junction
-		(at 83.82 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daa24116-3400-4d34-a50e-242e179b7b10")
-	)
-	(junction
-		(at 133.35 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e044896c-f9e5-4d96-af36-0ed75de4353c")
-	)
-	(junction
-		(at 44.45 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e17c648c-683a-4331-b4cd-86140d138677")
-	)
-	(junction
-		(at 50.8 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1c13531-114f-41a5-8ed9-dbcc1f303259")
-	)
-	(junction
-		(at 44.45 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f22ad7d2-addc-4cc2-9ad3-8f9bb2ad5a5d")
-	)
-	(junction
-		(at 139.7 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8417b33-a0f3-499a-869d-8141907d0582")
+		(uuid "815b71dd-a624-42f0-98d9-c35e4ccd9e78")
 	)
 	(junction
 		(at 44.45 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9ba9bb0-ac01-46c2-bd94-b8f4f8e505e2")
+		(uuid "81ebf0c7-a18d-4a72-8301-f189d33ee690")
 	)
-	(no_connect
-		(at 58.42 104.14)
-		(uuid "15abe904-ff06-4f7d-b180-2f28df58ffab")
+	(junction
+		(at 83.82 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "869b3fa1-f866-4e5f-b0cf-51f0164f1483")
 	)
-	(no_connect
-		(at 58.42 129.54)
-		(uuid "2799ee38-8c33-4795-8b32-c2aca19b1209")
+	(junction
+		(at 44.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f17d17-7824-4df6-a39f-c6df8c02b5a5")
 	)
-	(no_connect
-		(at 147.32 129.54)
-		(uuid "420b45dc-8a6d-4ec2-b532-f13e4477036a")
+	(junction
+		(at 83.82 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a03852-2d64-43ed-83de-2f52d9c74506")
 	)
-	(no_connect
-		(at 147.32 154.94)
-		(uuid "4b917646-fe0e-49b7-aa6e-5987970ef9c6")
+	(junction
+		(at 107.95 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9480a421-e34b-4766-a0a6-4e708c27ab17")
 	)
-	(no_connect
-		(at 58.42 27.94)
-		(uuid "4ec780b8-ece6-4fb3-a787-6b42d33d4fdb")
+	(junction
+		(at 44.45 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9720efe6-877b-4c48-9564-8ac497bcbb3d")
 	)
-	(no_connect
-		(at 58.42 53.34)
-		(uuid "501aa681-4746-4899-a453-ba9926a645a8")
+	(junction
+		(at 44.45 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bb1b39-ab93-48c6-a4cf-20c5d325aa53")
 	)
-	(no_connect
-		(at 147.32 104.14)
-		(uuid "57f4e8e6-2a2c-4a1a-989d-af89e77f13ad")
+	(junction
+		(at 44.45 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "985e599f-1945-4804-bbb6-573170ef6dc8")
 	)
-	(no_connect
-		(at 147.32 27.94)
-		(uuid "8799229f-69bf-4221-a502-811635cb915c")
+	(junction
+		(at 133.35 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f64e069-e5de-45b2-b3bb-7aa5a006e09c")
 	)
-	(no_connect
-		(at 58.42 154.94)
-		(uuid "92c58b5e-2b22-4f13-9fc5-dd621aa92026")
+	(junction
+		(at 50.8 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b133b0e4-d927-49af-a68e-6bea42e188c7")
 	)
-	(no_connect
-		(at 147.32 78.74)
-		(uuid "c5996ea2-70a6-4935-ba38-a1c585d502b7")
+	(junction
+		(at 83.82 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b48809d6-3e43-42e1-a64a-4c7439c2a217")
 	)
-	(no_connect
-		(at 30.48 27.94)
-		(uuid "c6a27437-32dc-4a0d-bfe7-45ee4a790037")
+	(junction
+		(at 44.45 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c04d0817-3125-43ce-80a3-9d788d0829aa")
 	)
-	(no_connect
-		(at 147.32 53.34)
-		(uuid "dc3d1ba8-9eeb-4568-a04b-b0974e237215")
+	(junction
+		(at 44.45 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08a1083-d554-46c1-a6e6-adf98f95c961")
+	)
+	(junction
+		(at 44.45 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccfcdaa9-9d91-4866-ae3a-fad3cac16904")
+	)
+	(junction
+		(at 133.35 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cda7c053-270a-4334-b2f9-332deac55fa8")
+	)
+	(junction
+		(at 83.82 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced2e35e-cdc8-4537-941c-b2460b5c9b8f")
+	)
+	(junction
+		(at 44.45 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a02e25-c620-4c16-becb-6cf0877094df")
+	)
+	(junction
+		(at 83.82 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d59f43f1-a87c-43c9-8efe-4fee5e494274")
+	)
+	(junction
+		(at 83.82 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a01193-f64b-4733-afb1-195cfdc43259")
+	)
+	(junction
+		(at 44.45 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddae2b13-6339-4ef5-8ce5-4458012286fc")
+	)
+	(junction
+		(at 40.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b2efd5-c4b3-4d3a-90b7-d1c5722b8afe")
+	)
+	(junction
+		(at 113.03 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee25efa4-acc4-41d4-b3f9-9ff114d408f0")
+	)
+	(junction
+		(at 44.45 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f525f412-f5e8-4888-86c8-28ae83ee165e")
+	)
+	(junction
+		(at 83.82 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa0f1640-7e1b-45c6-9dc8-56475ff39705")
 	)
 	(no_connect
 		(at 58.42 78.74)
-		(uuid "f8507ae0-beaf-4680-ba97-731ff8df6dbe")
+		(uuid "205117cf-a0ee-4d22-a1d6-8cf86e158709")
 	)
-	(wire
-		(pts
-			(xy 44.45 73.66) (xy 44.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00367018-046a-41c4-9b85-43e4c53b1a6c")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 139.7 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030506d2-f3d4-4e7b-aa6f-7a700e3e25ac")
-	)
-	(wire
-		(pts
-			(xy 83.82 223.52) (xy 120.65 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03669a84-6592-42d4-b503-3fa265d9c161")
-	)
-	(wire
-		(pts
-			(xy 40.64 76.2) (xy 50.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "036c77fc-6b91-4524-a40f-65f9c8aa19fc")
-	)
-	(wire
-		(pts
-			(xy 83.82 218.44) (xy 120.65 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f6d20a-d19c-40d3-99cb-66dc78beaed9")
-	)
-	(wire
-		(pts
-			(xy 88.9 38.1) (xy 127 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fc3705-fd4e-434d-92af-3bd3a3d19b5e")
-	)
-	(wire
-		(pts
-			(xy 50.8 76.2) (xy 58.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0911031e-776b-4af3-8980-aa826fda432d")
-	)
-	(wire
-		(pts
-			(xy 44.45 203.2) (xy 83.82 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097ba311-b4ae-4036-bde7-6d757e046d30")
-	)
-	(wire
-		(pts
-			(xy 44.45 231.14) (xy 44.45 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9a4c14-2ae2-46aa-a9c5-fba73eb24b75")
-	)
-	(wire
-		(pts
-			(xy 133.35 218.44) (xy 139.7 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1154f088-939f-4dd0-b08f-7de7a73f58a5")
-	)
-	(wire
-		(pts
-			(xy 137.16 220.98) (xy 137.16 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e707ba-a788-4c8b-b29b-255ca727c1e5")
-	)
-	(wire
-		(pts
-			(xy 30.48 238.76) (xy 44.45 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a53c81-46ab-4419-b7ad-6842a662483f")
-	)
-	(wire
-		(pts
-			(xy 83.82 226.06) (xy 139.7 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183feb8d-462f-4e9b-8bdf-08853cf283d4")
-	)
-	(wire
-		(pts
-			(xy 147.32 99.06) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dddaa54-c98e-4375-99f8-a99adae910b4")
-	)
-	(wire
-		(pts
-			(xy 58.42 149.86) (xy 44.45 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebd4311-2bc5-470d-8963-4ab98dd01fd7")
-	)
-	(wire
-		(pts
-			(xy 50.8 101.6) (xy 50.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20701ca3-c85f-4021-9d62-ea6668fad866")
-	)
-	(wire
-		(pts
-			(xy 30.48 190.5) (xy 83.82 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c70c02-d923-4725-b181-44d144cbc2d2")
-	)
-	(wire
-		(pts
-			(xy 137.16 228.6) (xy 83.82 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2272bf23-e125-4b70-8de1-59a78021c112")
-	)
-	(wire
-		(pts
-			(xy 58.42 101.6) (xy 50.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d8a4b8-adc1-4ce7-8b8d-490cd8f715d0")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 147.32 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2499158f-a509-483f-a3d6-4067019be00d")
-	)
-	(wire
-		(pts
-			(xy 38.1 25.4) (xy 38.1 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "292d4773-14e6-4ea7-be1b-5a9dd2a795d7")
-	)
-	(wire
-		(pts
-			(xy 41.91 218.44) (xy 83.82 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be3b262-713e-4a28-9dd6-f78b8c0743ea")
-	)
-	(wire
-		(pts
-			(xy 129.54 25.4) (xy 129.54 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d28db53-6d07-4e0f-9581-e26a7e6a151a")
-	)
-	(wire
-		(pts
-			(xy 30.48 193.04) (xy 41.91 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31eb6aec-12ae-4e2c-81f3-280c18be8361")
-	)
-	(wire
-		(pts
-			(xy 30.48 264.16) (xy 44.45 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ae7bb8-449e-4486-b5d3-8c5561ce222e")
-	)
-	(wire
-		(pts
-			(xy 39.37 220.98) (xy 83.82 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3907e886-d765-4855-a920-3d95206be5dd")
-	)
-	(wire
-		(pts
-			(xy 139.7 25.4) (xy 147.32 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac06223-e70b-46b2-9a3f-0c3039ccfa24")
-	)
-	(wire
-		(pts
-			(xy 119.38 78.74) (xy 129.54 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c603c47-a796-47de-a0e4-240d4f4a86d4")
-	)
-	(wire
-		(pts
-			(xy 44.45 200.66) (xy 44.45 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f57359d-a332-4cc5-a084-c0a707e31ed8")
-	)
-	(wire
-		(pts
-			(xy 88.9 165.1) (xy 88.9 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40548660-97fb-4f06-b0df-6a67173fc61d")
-	)
-	(wire
-		(pts
-			(xy 119.38 124.46) (xy 133.35 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436e1c00-5a31-4779-a4c3-6cb51e66b65d")
-	)
-	(wire
-		(pts
-			(xy 58.42 99.06) (xy 44.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45abd81a-cb72-4316-bcab-6128445a307b")
-	)
-	(wire
-		(pts
-			(xy 134.62 223.52) (xy 134.62 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4643c0c0-87db-4da7-935a-7358b4a30f12")
-	)
-	(wire
-		(pts
-			(xy 30.48 127) (xy 38.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478d9015-a230-4e14-bafc-0091e89722e2")
-	)
-	(wire
-		(pts
-			(xy 119.38 22.86) (xy 133.35 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e8666a-e1ca-4771-b1e8-0f991a905e25")
-	)
-	(wire
-		(pts
-			(xy 44.45 187.96) (xy 44.45 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49096424-f021-4320-86ef-3dfb99655c38")
-	)
-	(wire
-		(pts
-			(xy 30.48 243.84) (xy 39.37 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc69042-6934-41e4-9aeb-12182736b381")
-	)
-	(wire
-		(pts
-			(xy 40.64 129.54) (xy 40.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5006f10e-ddd7-46fa-87c0-0fbeed7f51e2")
-	)
-	(wire
-		(pts
-			(xy 46.99 193.04) (xy 46.99 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "515630f5-88aa-4236-8f33-7c4df20ef3a8")
-	)
-	(wire
-		(pts
-			(xy 39.37 223.52) (xy 83.82 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579a262d-45d4-40e9-bb9d-69ece8a50481")
-	)
-	(wire
-		(pts
-			(xy 30.48 22.86) (xy 44.45 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8c6bc5-9796-476f-b98e-1f31b3ecc40a")
-	)
-	(wire
-		(pts
-			(xy 133.35 124.46) (xy 147.32 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d45ee89-2fe5-4d9f-b949-4e034b8948a2")
-	)
-	(wire
-		(pts
-			(xy 58.42 73.66) (xy 44.45 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62165bcd-008e-4c27-ae28-068f2a0afdcb")
-	)
-	(wire
-		(pts
-			(xy 133.35 48.26) (xy 133.35 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63f2119d-137b-47d1-a198-c8feef2b0dba")
-	)
-	(wire
-		(pts
-			(xy 147.32 48.26) (xy 133.35 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643e5df7-39fb-40c9-8bc4-e419fada65c6")
-	)
-	(wire
-		(pts
-			(xy 129.54 25.4) (xy 139.7 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d018e3-a5f4-4f2d-9e29-bde8bca4ac20")
-	)
-	(wire
-		(pts
-			(xy 41.91 193.04) (xy 41.91 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6532ecdc-6f4f-4cb0-8f46-bcb4be6cd41f")
-	)
-	(wire
-		(pts
-			(xy 119.38 25.4) (xy 129.54 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6717a6c1-8711-406a-a037-dac594f5915f")
-	)
-	(wire
-		(pts
-			(xy 44.45 200.66) (xy 83.82 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6903bf2c-f3eb-4b40-9e4b-2ee2c9b815cd")
-	)
-	(wire
-		(pts
-			(xy 58.42 124.46) (xy 44.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c25795f-ebc4-4311-80b3-76bb1a8d7300")
-	)
-	(wire
-		(pts
-			(xy 133.35 48.26) (xy 133.35 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d977142-f7d6-4fa3-8d2c-f96995cb4c69")
-	)
-	(wire
-		(pts
-			(xy 41.91 226.06) (xy 83.82 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc5e21b-fb8a-4fdf-ac45-19c6cc2b7972")
-	)
-	(wire
-		(pts
-			(xy 44.45 171.45) (xy 44.45 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df3a356-a917-4d39-b38b-bf447fcfb7d2")
-	)
-	(wire
-		(pts
-			(xy 133.35 149.86) (xy 133.35 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e80b063-d253-45f0-9061-74a9406e7401")
-	)
-	(wire
-		(pts
-			(xy 44.45 149.86) (xy 44.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0c2594-ef28-40a9-ba51-aa686af1d149")
-	)
-	(wire
-		(pts
-			(xy 49.53 195.58) (xy 83.82 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75b93046-6802-4afb-9fd9-2704fd64aac5")
-	)
-	(wire
-		(pts
-			(xy 119.38 76.2) (xy 127 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79de8956-f21d-467f-a42e-922866c8fcd3")
-	)
-	(wire
-		(pts
-			(xy 119.38 73.66) (xy 133.35 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5806de-e18f-449a-8db7-9d079b48d043")
-	)
-	(wire
-		(pts
-			(xy 30.48 241.3) (xy 49.53 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f9c334e-a803-47e0-baa5-377f1425a676")
-	)
-	(wire
-		(pts
-			(xy 38.1 25.4) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "822aa23a-9ad1-4a65-ba08-564a54e9e442")
-	)
-	(wire
-		(pts
-			(xy 30.48 215.9) (xy 46.99 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825a77a3-04a1-4a85-b9fe-da4a66d17992")
-	)
-	(wire
-		(pts
-			(xy 133.35 124.46) (xy 133.35 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c8d1a9-fde1-496a-b659-75e85cd0fca6")
-	)
-	(wire
-		(pts
-			(xy 133.35 99.06) (xy 133.35 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8693ad17-44bd-4687-9365-f3d26a84dd4b")
-	)
-	(wire
-		(pts
-			(xy 30.48 266.7) (xy 52.07 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d3f7f7-bd7a-4552-a5c6-f20e6918fd76")
-	)
-	(wire
-		(pts
-			(xy 139.7 152.4) (xy 139.7 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f21cfd-0fb4-4deb-a268-be81e4de1bc3")
-	)
-	(wire
-		(pts
-			(xy 44.45 124.46) (xy 44.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3bd25c-79c7-47c2-a76f-61859aa1c6eb")
-	)
-	(wire
-		(pts
-			(xy 44.45 48.26) (xy 44.45 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9251a897-5047-4cf7-84d7-40f3ec4b8020")
-	)
-	(wire
-		(pts
-			(xy 49.53 241.3) (xy 49.53 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a98582-7f8b-42d2-afc2-76f0a310049a")
-	)
-	(wire
-		(pts
-			(xy 30.48 25.4) (xy 38.1 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b35087-9e6f-4bef-b382-06ec4d351eaa")
+	(no_connect
+		(at 58.42 53.34)
+		(uuid "53436cbf-c61f-4ae0-950a-7b16835c4f65")
 	)
-	(wire
-		(pts
-			(xy 30.48 269.24) (xy 41.91 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f192c8-f2e1-4e84-9434-90ab9c18e5cc")
+	(no_connect
+		(at 147.32 27.94)
+		(uuid "57d7fa0a-e08c-48a1-9767-d892b4b4ebe8")
 	)
-	(wire
-		(pts
-			(xy 44.45 264.16) (xy 44.45 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a4f76be-d3dd-4dca-86c3-169ff182bc3d")
+	(no_connect
+		(at 30.48 27.94)
+		(uuid "57dc7d3d-8f51-4a79-97b5-3fb2f3c08774")
 	)
-	(wire
-		(pts
-			(xy 139.7 101.6) (xy 139.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b7bfe40-5aff-46ea-832b-951a8aa22503")
+	(no_connect
+		(at 58.42 27.94)
+		(uuid "939e2f5b-dc29-4100-a7c9-56ab7ca541a7")
 	)
-	(wire
-		(pts
-			(xy 83.82 190.5) (xy 107.95 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4a8793-90c3-4e59-a3cd-b93ca21fefcd")
+	(no_connect
+		(at 58.42 104.14)
+		(uuid "b8157f41-86c5-4289-aab3-8e2077840085")
 	)
-	(wire
-		(pts
-			(xy 83.82 193.04) (xy 46.99 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc86896-5b12-440e-950f-f5728764f8d9")
+	(no_connect
+		(at 147.32 53.34)
+		(uuid "d8fb9b4d-23f6-4f7e-bb8e-2b920d492aa1")
 	)
 	(wire
 		(pts
-			(xy 52.07 266.7) (xy 52.07 198.12)
+			(xy 44.45 137.16) (xy 44.45 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a04e9f47-a3d6-4d57-8308-c235de06c8be")
+		(uuid "00790d3a-0f9d-4e9e-9cbc-f26452dfe513")
 	)
 	(wire
 		(pts
-			(xy 133.35 149.86) (xy 147.32 149.86)
+			(xy 138.43 180.34) (xy 83.82 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2f475a0-d55c-42a7-b347-14780fb50e98")
+		(uuid "010fdf91-b614-4965-bd03-3c95d96044b8")
 	)
 	(wire
 		(pts
@@ -1894,497 +1629,47 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a34c08eb-f2ea-41b9-9108-6650cdfb7884")
+		(uuid "02381c13-2ab7-41c5-b12a-3e0de10e8796")
 	)
 	(wire
 		(pts
-			(xy 44.45 22.86) (xy 58.42 22.86)
+			(xy 62.23 180.34) (xy 83.82 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a75b5378-099e-4f64-9bc7-c974b518af90")
+		(uuid "02488eba-d66d-41f9-9015-0b4283d55a53")
 	)
 	(wire
 		(pts
-			(xy 83.82 198.12) (xy 107.95 198.12)
+			(xy 30.48 264.16) (xy 44.45 264.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a90b5309-5a84-49ed-92f9-f05540503264")
+		(uuid "05b622c3-01da-4d54-85c9-8fa2130682cd")
 	)
 	(wire
 		(pts
-			(xy 44.45 228.6) (xy 83.82 228.6)
+			(xy 44.45 157.48) (xy 83.82 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac76293b-df85-4dd7-8ce3-d33f9e74239a")
+		(uuid "06ada860-431d-49cc-8bdc-1503f61aea60")
 	)
 	(wire
 		(pts
-			(xy 44.45 238.76) (xy 44.45 264.16)
+			(xy 113.03 167.64) (xy 113.03 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b011f362-6351-4d76-8f22-31906ae9c7da")
-	)
-	(wire
-		(pts
-			(xy 119.38 129.54) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03d0609-8188-48d9-9c5b-767f8bd53043")
-	)
-	(wire
-		(pts
-			(xy 52.07 198.12) (xy 83.82 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c88a2f-31b5-49ca-8199-c4c0c6e89591")
-	)
-	(wire
-		(pts
-			(xy 30.48 218.44) (xy 39.37 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36711b8-329d-4432-b02d-0c80e7106177")
-	)
-	(wire
-		(pts
-			(xy 30.48 78.74) (xy 38.1 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c4ff26-a11b-4f86-8da5-71cbe8e2943d")
-	)
-	(wire
-		(pts
-			(xy 133.35 220.98) (xy 137.16 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3db0076-b1db-4f1c-9df5-3d2a0dfa70bc")
-	)
-	(wire
-		(pts
-			(xy 38.1 127) (xy 38.1 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b50b76ae-1f4c-4f76-a94c-1318c3de906f")
-	)
-	(wire
-		(pts
-			(xy 147.32 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68690bc-ebef-4381-aa8d-80a1a1e0ba90")
-	)
-	(wire
-		(pts
-			(xy 127 27.94) (xy 127 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8abb72b-4944-4d81-b4db-33f445e2fc34")
-	)
-	(wire
-		(pts
-			(xy 83.82 193.04) (xy 107.95 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b906f441-8b65-4948-a984-1e2d9b403298")
-	)
-	(wire
-		(pts
-			(xy 133.35 22.86) (xy 147.32 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b96e4096-f5cc-4b36-a0ef-ef276e58c6de")
-	)
-	(wire
-		(pts
-			(xy 50.8 127) (xy 58.42 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf46885-9c44-4b06-ba4f-7b08d79ed9cf")
-	)
-	(wire
-		(pts
-			(xy 39.37 243.84) (xy 39.37 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be01b8ec-3cbc-4284-a001-a958ee0781f5")
-	)
-	(wire
-		(pts
-			(xy 58.42 152.4) (xy 50.8 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be686573-628c-4bd6-9062-9111164b670c")
-	)
-	(wire
-		(pts
-			(xy 44.45 231.14) (xy 83.82 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "befc4570-94b4-469f-93ca-820802c3eb24")
-	)
-	(wire
-		(pts
-			(xy 139.7 127) (xy 147.32 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1815b03-7c4a-4fc5-86ac-a85cd7cedbaf")
-	)
-	(wire
-		(pts
-			(xy 147.32 101.6) (xy 139.7 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fe9496-5f9e-47d8-b1f2-b7c31ffa87f9")
-	)
-	(wire
-		(pts
-			(xy 83.82 220.98) (xy 120.65 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d9a380-1a16-497e-b2b8-f64944c15aa4")
-	)
-	(wire
-		(pts
-			(xy 38.1 165.1) (xy 88.9 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac8b48a-f041-4695-a9ff-f5e2cf6a3574")
-	)
-	(wire
-		(pts
-			(xy 50.8 25.4) (xy 58.42 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8e9c43-08e9-4e84-96a8-c61dc3a72178")
-	)
-	(wire
-		(pts
-			(xy 127 76.2) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdaee422-b134-4ba9-92e9-89e3bc13cdb1")
-	)
-	(wire
-		(pts
-			(xy 38.1 127) (xy 50.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceeb3a22-aa5b-49bd-835c-292da9354a10")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d117ef18-9d57-4acf-af10-5067a86fa147")
-	)
-	(wire
-		(pts
-			(xy 119.38 27.94) (xy 127 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d255f341-9f51-48a4-9e9d-eee09a5d641d")
-	)
-	(wire
-		(pts
-			(xy 147.32 152.4) (xy 139.7 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27afc95-7af2-4649-92c9-98a0f886f9f0")
-	)
-	(wire
-		(pts
-			(xy 119.38 127) (xy 139.7 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fe8bd4-685e-43ff-b86b-3d9009181090")
-	)
-	(wire
-		(pts
-			(xy 44.45 149.86) (xy 44.45 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d961adc1-ac8c-4fde-89e2-5aa0aec43d9c")
-	)
-	(wire
-		(pts
-			(xy 30.48 124.46) (xy 44.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba6831b-9205-4959-965e-3a74c46b2b1a")
-	)
-	(wire
-		(pts
-			(xy 44.45 213.36) (xy 44.45 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc42bd87-eafe-40df-8138-08a3d527da25")
-	)
-	(wire
-		(pts
-			(xy 139.7 218.44) (xy 139.7 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dccdbd6e-efa0-49a4-96f4-b961e64618ef")
-	)
-	(wire
-		(pts
-			(xy 44.45 99.06) (xy 44.45 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc75580-ae06-4c48-8e39-e1e359e9c534")
-	)
-	(wire
-		(pts
-			(xy 58.42 48.26) (xy 44.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e085e8e2-74af-4fca-8bc7-1b94ccf0ef54")
-	)
-	(wire
-		(pts
-			(xy 133.35 171.45) (xy 44.45 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e214a975-648c-4529-bd3c-5a0e9eeb4af9")
-	)
-	(wire
-		(pts
-			(xy 83.82 195.58) (xy 107.95 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f22ebe-8e64-48ae-b911-88efc23bfec6")
-	)
-	(wire
-		(pts
-			(xy 133.35 73.66) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f3b92d-fb0f-4870-9364-ae752e33ed97")
-	)
-	(wire
-		(pts
-			(xy 39.37 218.44) (xy 39.37 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5400e83-d46c-45f1-8804-07f6b6c25ab8")
-	)
-	(wire
-		(pts
-			(xy 44.45 228.6) (xy 44.45 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e629caff-c27b-49bd-961d-ed6925402d45")
-	)
-	(wire
-		(pts
-			(xy 133.35 99.06) (xy 133.35 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e927c75a-d630-4f26-bcbc-83c908e24d07")
-	)
-	(wire
-		(pts
-			(xy 30.48 76.2) (xy 40.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebfb1fe4-e953-4537-8696-0a08a4b9615d")
-	)
-	(wire
-		(pts
-			(xy 58.42 50.8) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5a17c3-e3db-43c9-9b83-9c7a1303ebc6")
-	)
-	(wire
-		(pts
-			(xy 30.48 129.54) (xy 40.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed899cb0-e2ff-44a6-aec2-1ab1b5be8b31")
-	)
-	(wire
-		(pts
-			(xy 41.91 269.24) (xy 41.91 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef411d43-ed14-4a91-ac1f-4ced97d983cd")
-	)
-	(wire
-		(pts
-			(xy 127 76.2) (xy 139.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3937174-c56d-4ebc-b8dd-2e52ccd1adb3")
-	)
-	(wire
-		(pts
-			(xy 50.8 152.4) (xy 50.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51545aa-756b-4b0b-9019-fd0cc40180e6")
-	)
-	(wire
-		(pts
-			(xy 133.35 223.52) (xy 134.62 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f069a5-6b67-4361-9bd1-e2a1101657ab")
-	)
-	(wire
-		(pts
-			(xy 44.45 203.2) (xy 44.45 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb88690f-ecd9-4c73-aadd-da9b585399c9")
+		(uuid "128e2483-3159-4315-b38f-2b5595adf5ae")
 	)
 	(wire
 		(pts
@@ -2394,7 +1679,777 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fbf0b877-aa01-434b-b0f4-e51bf1a21cfa")
+		(uuid "17d84a1b-8444-4288-8076-ed26828b8eac")
+	)
+	(wire
+		(pts
+			(xy 133.35 172.72) (xy 135.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c30f68-3d18-4f0e-aa49-e2a7eff7f8e4")
+	)
+	(wire
+		(pts
+			(xy 83.82 142.24) (xy 107.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a73ca44-5cf9-4a8a-ad13-3ff6d3d14cd2")
+	)
+	(wire
+		(pts
+			(xy 30.48 243.84) (xy 59.69 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abdc742-cdd7-426b-b0a4-26f0c7727ad2")
+	)
+	(wire
+		(pts
+			(xy 30.48 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e23bf8f-b774-43bb-9b40-c4007bfcbc21")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22872694-7e52-412b-b5ad-7571c81dc435")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c3f9ad-dd57-4d6a-97ac-7000a61f010b")
+	)
+	(wire
+		(pts
+			(xy 83.82 177.8) (xy 107.95 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2434bf3e-a886-43bc-9d4f-0df5d6020594")
+	)
+	(wire
+		(pts
+			(xy 83.82 139.7) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247a1b1f-797e-4f61-ad8b-df22c4f682f0")
+	)
+	(wire
+		(pts
+			(xy 44.45 154.94) (xy 44.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255b557f-eedd-4c85-b7c1-d394bc982252")
+	)
+	(wire
+		(pts
+			(xy 41.91 167.64) (xy 83.82 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cbc296-dc29-4a96-b967-a60717d09396")
+	)
+	(wire
+		(pts
+			(xy 30.48 193.04) (xy 39.37 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b70b1a1-89c6-4291-b2c2-3327c2c560d4")
+	)
+	(wire
+		(pts
+			(xy 40.64 114.3) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6ff286-a77f-4479-8bc0-bdfd24f2170c")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 83.82 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea501b4-d815-407c-b8e5-742f604f8b2a")
+	)
+	(wire
+		(pts
+			(xy 44.45 157.48) (xy 44.45 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec982fa-0c16-46e6-8fe4-de49f8ce1b3e")
+	)
+	(wire
+		(pts
+			(xy 30.48 76.2) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d5ad8d-bc24-4325-ac60-e20b12d62489")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f09a06-2a92-4877-977e-4bd96e2ff3c2")
+	)
+	(wire
+		(pts
+			(xy 54.61 149.86) (xy 83.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343491f9-fa85-4e28-bd63-e4bb63024f6b")
+	)
+	(wire
+		(pts
+			(xy 83.82 172.72) (xy 107.95 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347bc7ae-4fd5-47cc-bd15-159d6e102ce7")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348ac259-6deb-4af2-9552-25be7dd3ed75")
+	)
+	(wire
+		(pts
+			(xy 44.45 154.94) (xy 83.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6da715-eff1-45be-aaf0-96fde00f0290")
+	)
+	(wire
+		(pts
+			(xy 83.82 149.86) (xy 107.95 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8a03d6-285c-4827-9bb0-b1120edfbd28")
+	)
+	(wire
+		(pts
+			(xy 44.45 73.66) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbc8def-58e6-4b8d-a47f-64b69dbe1e92")
+	)
+	(wire
+		(pts
+			(xy 83.82 167.64) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb6f96a-aa7a-485b-b81e-192b64d8c13e")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2bb222-58c0-4a20-86ae-1fbb129da23c")
+	)
+	(wire
+		(pts
+			(xy 57.15 266.7) (xy 57.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ca6ada-1a95-4d2c-9ee8-9965c768ff89")
+	)
+	(wire
+		(pts
+			(xy 49.53 190.5) (xy 49.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490ee787-740e-4872-bf6a-da6e729a6e62")
+	)
+	(wire
+		(pts
+			(xy 54.61 241.3) (xy 54.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce0402d-e7b3-4086-adba-bc3087f541c1")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f55f88a-43e3-48c3-9ad6-06b5a34b269f")
+	)
+	(wire
+		(pts
+			(xy 95.25 185.42) (xy 135.89 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bc15f1-afc5-4a70-bd75-7309d5822b45")
+	)
+	(wire
+		(pts
+			(xy 107.95 203.2) (xy 107.95 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561d0aaf-4f34-49a3-9188-f90289a925a5")
+	)
+	(wire
+		(pts
+			(xy 30.48 190.5) (xy 49.53 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570f16d5-b4bb-42f0-bd81-a509e34d5c18")
+	)
+	(wire
+		(pts
+			(xy 83.82 185.42) (xy 95.25 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5719ae34-aa63-4efc-ae9a-beab156aeecf")
+	)
+	(wire
+		(pts
+			(xy 105.41 203.2) (xy 107.95 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f05ada-233f-4745-bb3b-338fb3dc2361")
+	)
+	(wire
+		(pts
+			(xy 118.11 172.72) (xy 118.11 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580e5709-bc3c-4a85-9337-3388d295e60b")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a84ebe9-2d6d-4af3-b0b5-1ff6b8b7d84d")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3a4bd3-6e62-4742-ba37-76ddc8461500")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 44.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be66923-2c7a-4203-b629-5a642b00a416")
+	)
+	(wire
+		(pts
+			(xy 113.03 170.18) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf789d6-50d2-4760-850e-0f271ff077a2")
+	)
+	(wire
+		(pts
+			(xy 133.35 48.26) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d64236-73fd-4525-b27d-ebd3f0546246")
+	)
+	(wire
+		(pts
+			(xy 44.45 213.36) (xy 44.45 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ffad68-8480-4366-9bfd-b61a11255e40")
+	)
+	(wire
+		(pts
+			(xy 30.48 238.76) (xy 44.45 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66349f3c-ce55-4412-937a-6be770edd3fc")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 44.45 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669b5789-5317-415e-bc0c-3dd3f0c87573")
+	)
+	(wire
+		(pts
+			(xy 115.57 170.18) (xy 120.65 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686d8ff4-97cb-4c32-962c-83d675517492")
+	)
+	(wire
+		(pts
+			(xy 44.45 264.16) (xy 44.45 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6954fc2d-43f6-4835-b228-e96b25af249d")
+	)
+	(wire
+		(pts
+			(xy 30.48 269.24) (xy 62.23 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69724c4f-c4b3-4fdd-a89c-70cf55d1fedd")
+	)
+	(wire
+		(pts
+			(xy 133.35 22.86) (xy 147.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4c1112-8b1c-4338-ac48-3bf00dfe2af9")
+	)
+	(wire
+		(pts
+			(xy 30.48 139.7) (xy 83.82 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9bdc21-5284-47c9-a2a2-fee16f89e332")
+	)
+	(wire
+		(pts
+			(xy 127 203.2) (xy 127 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e739662-dadd-4004-b096-260a6dac9776")
+	)
+	(wire
+		(pts
+			(xy 59.69 177.8) (xy 83.82 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e95bd57-b99c-422e-94b6-12fe3f0bc14c")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7222a4cc-0f98-46e2-a663-feaed3bb8f71")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 38.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cffd6d-d0de-41b0-9680-c06302a17f81")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 44.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7330ca8c-856c-44e7-b70d-a39346d5f0ab")
+	)
+	(wire
+		(pts
+			(xy 30.48 142.24) (xy 41.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fd8893-1217-4ff6-a57b-a3223c0dae33")
+	)
+	(wire
+		(pts
+			(xy 115.57 175.26) (xy 115.57 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5d5e0c-385b-412b-adf2-37952c3a2d54")
+	)
+	(wire
+		(pts
+			(xy 39.37 193.04) (xy 39.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8db061-89af-4b6d-9723-eacfa8a098ad")
+	)
+	(wire
+		(pts
+			(xy 30.48 165.1) (xy 46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccd7193-61fe-46c1-a396-2f7757b8e47e")
+	)
+	(wire
+		(pts
+			(xy 147.32 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfff4bf-e0df-4858-9a63-bf1967f85809")
+	)
+	(wire
+		(pts
+			(xy 138.43 170.18) (xy 133.35 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e700b24-4dad-4456-9b74-ed49b3495784")
+	)
+	(wire
+		(pts
+			(xy 107.95 177.8) (xy 107.95 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802b1947-32be-4241-a2c8-33a753ef7d41")
+	)
+	(wire
+		(pts
+			(xy 119.38 22.86) (xy 133.35 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b714d3-0cb9-4f6e-95f1-65dc8be9645d")
+	)
+	(wire
+		(pts
+			(xy 30.48 22.86) (xy 44.45 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e590a3-a60e-4331-9b9f-2e9c264a6a5a")
+	)
+	(wire
+		(pts
+			(xy 30.48 137.16) (xy 44.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b86317-fd90-4b3e-9249-e3c7d5259973")
+	)
+	(wire
+		(pts
+			(xy 59.69 243.84) (xy 59.69 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e431fb-8062-4382-addb-fb5ed78fcd83")
+	)
+	(wire
+		(pts
+			(xy 41.91 142.24) (xy 41.91 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a196802-c94b-479e-86bd-229bc8f83ee2")
+	)
+	(wire
+		(pts
+			(xy 62.23 269.24) (xy 62.23 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a31655c-bc9d-4c13-a5c8-34156e54df62")
+	)
+	(wire
+		(pts
+			(xy 30.48 78.74) (xy 38.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df534c1-ad6f-47a2-9277-9909dad06af6")
+	)
+	(wire
+		(pts
+			(xy 138.43 170.18) (xy 138.43 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923c98aa-9e71-4ea0-a977-a605a2523d6a")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923f4634-cb86-457e-984f-42795dc6c525")
+	)
+	(wire
+		(pts
+			(xy 44.45 182.88) (xy 44.45 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957b0817-2135-4159-b1c5-be5214c61d2e")
+	)
+	(wire
+		(pts
+			(xy 52.07 215.9) (xy 52.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9613c1ba-68dd-415a-8ac0-80ce750e8577")
+	)
+	(wire
+		(pts
+			(xy 97.79 203.2) (xy 95.25 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f11870f-5f02-4ef8-8bbe-395ee1a957fb")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 83.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5c5e18-6b7f-43eb-a425-812b31ced317")
+	)
+	(wire
+		(pts
+			(xy 113.03 167.64) (xy 120.65 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5ce0b8-bd5c-4356-ab45-2e1459a9b6ed")
+	)
+	(wire
+		(pts
+			(xy 44.45 238.76) (xy 44.45 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2086e24-ce46-4265-a506-b026a53a59ad")
+	)
+	(wire
+		(pts
+			(xy 83.82 182.88) (xy 118.11 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f0d01b-b6c8-4d9f-bc85-a098770b325a")
+	)
+	(wire
+		(pts
+			(xy 135.89 172.72) (xy 135.89 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51a2996-62b6-49a5-9d1a-88223703b425")
+	)
+	(wire
+		(pts
+			(xy 140.97 158.75) (xy 140.97 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86f6bf9-e2d6-4582-9824-12d4c0a0d629")
 	)
 	(wire
 		(pts
@@ -2404,724 +2459,515 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fe7db3e8-a1bd-4b4b-9bf6-6248884accac")
+		(uuid "a8e9fa38-98c7-4ce1-8225-908730a3794c")
 	)
 	(wire
 		(pts
-			(xy 83.82 231.14) (xy 134.62 231.14)
+			(xy 107.95 203.2) (xy 110.49 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffdeec78-1f87-47b0-901f-016f286b3db0")
+		(uuid "aa0f04aa-b28a-4ec3-9af9-8a48049ea86d")
+	)
+	(wire
+		(pts
+			(xy 113.03 158.75) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc2cab7-6e48-4904-8ddc-f45b552d10bc")
+	)
+	(wire
+		(pts
+			(xy 40.64 76.2) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf159ff-5164-4bed-bb64-b6638536c2a4")
+	)
+	(wire
+		(pts
+			(xy 127 27.94) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af442c8f-4508-4db8-9ea8-6a38df5a7500")
+	)
+	(wire
+		(pts
+			(xy 83.82 144.78) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af850b02-6c48-4282-bdb2-919b7080fc15")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 139.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b050d933-89bb-4930-ad0b-0d57d68d7530")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 44.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a41477-f5ec-4c77-8ea6-897d0e85078c")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be08c27c-921f-4858-9d52-021ba47f5146")
+	)
+	(wire
+		(pts
+			(xy 44.45 162.56) (xy 44.45 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c298e763-2085-4357-92e3-d4a64b1e503f")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 44.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37614aa-21af-4f44-a4be-495341cdc961")
+	)
+	(wire
+		(pts
+			(xy 83.82 152.4) (xy 107.95 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c413b802-9078-49ea-ac21-0478fe8ebf89")
+	)
+	(wire
+		(pts
+			(xy 30.48 162.56) (xy 44.45 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c642d7ea-de19-4e07-a4dd-013a8396e0e9")
+	)
+	(wire
+		(pts
+			(xy 95.25 185.42) (xy 95.25 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c811824f-2a37-44df-8e2a-1c2400b7835b")
+	)
+	(wire
+		(pts
+			(xy 30.48 218.44) (xy 41.91 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6e0468-6e72-4816-865e-4891f7cff63e")
+	)
+	(wire
+		(pts
+			(xy 140.97 167.64) (xy 133.35 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc0f0d9-b572-4c22-a504-4ecb2cedb259")
+	)
+	(wire
+		(pts
+			(xy 118.11 172.72) (xy 120.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce57388d-06cb-4f88-b43c-38f99cab1c84")
+	)
+	(wire
+		(pts
+			(xy 133.35 48.26) (xy 133.35 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedf3daf-b0b4-4136-b3d3-552c8acbc767")
+	)
+	(wire
+		(pts
+			(xy 57.15 152.4) (xy 83.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf933ae0-1cd2-4a95-9356-e0a9007abdb7")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07902ea-e8b0-4a44-a62b-6aff7e026a29")
+	)
+	(wire
+		(pts
+			(xy 119.38 25.4) (xy 139.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2467586-83fe-4b4c-8520-3f19d84bdd7d")
+	)
+	(wire
+		(pts
+			(xy 39.37 172.72) (xy 83.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d283d25b-95b6-4fec-93ca-686339cf3849")
+	)
+	(wire
+		(pts
+			(xy 119.38 27.94) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5004895-566f-4636-9cd0-4493cc1396dc")
+	)
+	(wire
+		(pts
+			(xy 44.45 182.88) (xy 83.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d649cafb-39b6-48aa-a265-b416abc45921")
+	)
+	(wire
+		(pts
+			(xy 52.07 147.32) (xy 83.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e58a27-e8a0-4cc1-b8ff-b9bd6418eb0f")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3643c0-9c53-4d86-909d-ff87bc876c08")
+	)
+	(wire
+		(pts
+			(xy 83.82 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5dc082-87ea-4d84-b02c-ee2b55e2191f")
+	)
+	(wire
+		(pts
+			(xy 107.95 172.72) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6210a0-89fc-4f80-ae0c-f65af66e115c")
+	)
+	(wire
+		(pts
+			(xy 41.91 218.44) (xy 41.91 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdb2399-2f39-42ad-8b08-82554cb75b94")
+	)
+	(wire
+		(pts
+			(xy 41.91 175.26) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19e2d87-cf13-4b03-ab56-d2e23eaf1dc6")
+	)
+	(wire
+		(pts
+			(xy 83.82 147.32) (xy 107.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46bd479-0921-41ff-a4fc-02f58e7a68e7")
+	)
+	(wire
+		(pts
+			(xy 39.37 170.18) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67f1255-2a76-4d6f-8b52-7c65f01f1deb")
+	)
+	(wire
+		(pts
+			(xy 30.48 266.7) (xy 57.15 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7afba59-c82b-4acf-a0f7-ca4052904fcf")
+	)
+	(wire
+		(pts
+			(xy 139.7 25.4) (xy 147.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee60ec7d-ac07-46a5-aedf-1967cfc4f42c")
+	)
+	(wire
+		(pts
+			(xy 44.45 22.86) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7d2cd2-ea94-4a5b-82c1-f7e82e1680b4")
+	)
+	(wire
+		(pts
+			(xy 30.48 215.9) (xy 52.07 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f067e699-cd14-4727-b83f-13475c3f62c8")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1860e08-0955-4f4e-a5cb-4d523f03ba9c")
+	)
+	(wire
+		(pts
+			(xy 39.37 167.64) (xy 39.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c876d6-ce8f-4025-a39b-65ad4aabb608")
+	)
+	(wire
+		(pts
+			(xy 44.45 187.96) (xy 44.45 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3385125-847a-4f09-a871-f9c047626b0d")
+	)
+	(wire
+		(pts
+			(xy 118.11 203.2) (xy 127 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54791a8-85b3-4c5b-ada9-feb4160d298e")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61b4a9d-70b4-457c-ac66-7f68f201ef5e")
+	)
+	(wire
+		(pts
+			(xy 30.48 241.3) (xy 54.61 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71e28d2-c5c1-4d6a-9e00-3560a01dc556")
+	)
+	(wire
+		(pts
+			(xy 30.48 167.64) (xy 39.37 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b482b2-c227-4629-a2ea-842e87c294d1")
+	)
+	(wire
+		(pts
+			(xy 40.64 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae478af-e1f2-4863-8546-372e14d28652")
+	)
+	(hierarchical_label "Att C Input Jack"
+		(shape output)
+		(at 107.95 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36c9a07e-af14-4144-89e0-336f8047ed12")
 	)
 	(hierarchical_label "Att B Input Jack"
 		(shape output)
-		(at 107.95 195.58 0)
+		(at 107.95 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "65062a82-cc22-4814-9ae2-1e0702efc4d9")
+		(uuid "73452502-c8e3-4692-94c5-17873a1f0969")
 	)
 	(hierarchical_label "Att A Input Jack"
 		(shape output)
-		(at 107.95 190.5 0)
+		(at 107.95 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6eadb765-e2b1-4278-aaca-eba1493b01d5")
+		(uuid "75c6a4af-51a0-4229-8ca6-0b1dfa5275ca")
 	)
 	(hierarchical_label "Att B Output Jack"
 		(shape input)
-		(at 107.95 198.12 0)
+		(at 107.95 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cf1d586e-49e3-4b05-9a8e-41b0a83ec8fd")
+		(uuid "8ec4d428-8d4d-48dd-8f9d-873734040e62")
+	)
+	(hierarchical_label "Att C Output Jack"
+		(shape input)
+		(at 107.95 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b86368e-26f9-422c-b927-110c3caefc01")
 	)
 	(hierarchical_label "Att A Output Jack"
 		(shape input)
-		(at 107.95 193.04 0)
+		(at 107.95 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d00e13ad-4020-4664-b268-c6c4046cb266")
-	)
-	(symbol
-		(lib_id "SynthStuff:BackBone_Connector_6pin")
-		(at 125.73 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c45c39a-c28c-4de0-a03d-7e5454f8fbdb")
-		(property "Reference" "J200"
-			(at 127 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BackBone_Connector_6pin"
-			(at 127 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:IDC-Header_2x03_P2.54mm_Vertical_BackBone"
-			(at 125.73 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "08077a40-872f-4d42-b531-41e609468104")
-		)
-		(pin "1"
-			(uuid "58c0046f-3870-4e5d-9c13-adedb7262098")
-		)
-		(pin "3"
-			(uuid "e371ecf3-c6d9-4d25-b2ff-139abda54658")
-		)
-		(pin "6"
-			(uuid "9043068e-c19b-4f21-804a-e32d5fefc012")
-		)
-		(pin "5"
-			(uuid "2641d2b5-0ef2-4cf4-ad99-0ca19674f45e")
-		)
-		(pin "2"
-			(uuid "acddfe36-8add-4605-bbae-5e7f2299d6dd")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J200")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "a1118461-2875-4135-8623-6c6348a7190e")
 	)
 	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 63.5 127 0)
-		(mirror y)
+		(at 25.4 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "136e3185-9179-4884-a488-5d792b3c113d")
-		(property "Reference" "J12"
-			(at 64.135 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 64.135 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 63.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 63.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 3 Out 1"
-			(at 63.5 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "338beaef-7234-4ec5-bbcf-fc51b5e1b524")
-		)
-		(pin "TN"
-			(uuid "9e2ca1d0-e332-41aa-b370-787ac1828215")
-		)
-		(pin "S"
-			(uuid "9d6f1261-c44a-4863-a928-4475cbdc5bae")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 63.5 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ed2590e-b37d-43e4-a78c-8c15c325f684")
-		(property "Reference" "J9"
-			(at 64.135 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 64.135 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 2 Out 1"
-			(at 63.5 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "82ecbd65-daf0-4b86-a2ee-acd523cbb90a")
-		)
-		(pin "TN"
-			(uuid "35ae11a6-f92d-43a6-8c41-b0303ac9e963")
-		)
-		(pin "S"
-			(uuid "8db93c0a-ffc0-4ed8-be17-eefbeb797c55")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 63.5 25.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3608f3b8-c0a4-41b0-b352-8952f2caaed3")
-		(property "Reference" "J6"
-			(at 64.135 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 64.135 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 1 Out 1"
-			(at 63.5 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "b39554e1-5832-497e-9fe1-7c04fca69f05")
-		)
-		(pin "TN"
-			(uuid "925d35ff-42a9-4746-946a-9080ca059d49")
-		)
-		(pin "S"
-			(uuid "cb4d0fb2-aed0-4e5d-bb4c-b976662c8dfd")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 114.3 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "361fcef1-26d5-4534-92e7-ee0460dbd203")
-		(property "Reference" "J17"
-			(at 113.665 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 113.665 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Mult 5 In"
-			(at 114.3 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "e5b70e33-ba7f-4ce8-89c2-ecdc8efa2c59")
-		)
-		(pin "TN"
-			(uuid "eca6dacf-6baa-4bfd-aab8-e8c40b11b3dd")
-		)
-		(pin "S"
-			(uuid "f3d87245-69e7-40e7-a3ba-8901408d29d7")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a524883-fe81-4590-816b-ce49f91adbee")
-		(property "Reference" "J4"
-			(at 24.765 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Att B Out"
-			(at 25.4 274.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "2c094261-64cc-4080-ba54-731ac6a2fb7f")
-		)
-		(pin "TN"
-			(uuid "353b43a2-1cee-419c-9777-6916717e7ef0")
-		)
-		(pin "S"
-			(uuid "67875f42-9c04-4e34-a82e-96670b51ed19")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "420cf857-bbaf-4bed-867e-c6b2b16ab4f6")
-		(property "Reference" "J8"
-			(at 24.765 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Mult 2 In"
-			(at 25.4 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "1630e60b-f28a-47b5-9b07-d2d134fa6aef")
-		)
-		(pin "TN"
-			(uuid "1a9fac79-3187-433f-9469-1e27087c1114")
-		)
-		(pin "S"
-			(uuid "2bd6cf4f-fe28-4d96-aaf7-bf5dd1c9aa3e")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 63.5 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45a0ee0e-f5af-459b-92a0-144c5a28471e")
-		(property "Reference" "J7"
-			(at 64.135 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 64.135 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 1 Out 2"
-			(at 63.5 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "af6ac75c-141e-4718-8144-8f846bfd9230")
-		)
-		(pin "TN"
-			(uuid "4ded98c0-ca0d-442b-8413-07a76ae1ab77")
-		)
-		(pin "S"
-			(uuid "de94de08-f7c4-4887-aaba-b132022cf2fb")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "467d16fe-1bdd-4a11-8c4d-fdbf6c1e6839")
+		(uuid "0c274226-37a0-4c50-bfe2-1cb1a3799dc4")
 		(property "Reference" "J1"
-			(at 24.765 181.61 0)
+			(at 24.765 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +2975,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 184.15 0)
+			(at 24.765 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +2983,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 190.5 0)
+			(at 25.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +2992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 190.5 0)
+			(at 25.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3001,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 190.5 0)
+			(at 25.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,8 +3009,8 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Att A In"
-			(at 25.4 197.866 0)
+		(property "Function" "Att A Input"
+			(at 25.4 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,16 +3021,16 @@
 			)
 		)
 		(pin "T"
-			(uuid "b48545ff-fe17-481d-a2a4-82de87abd5a8")
+			(uuid "0b914614-8f81-4adc-aeb2-f8184f2f7a1d")
 		)
 		(pin "TN"
-			(uuid "6a442da8-5c17-4cc2-bc65-a047171722df")
+			(uuid "32311aa0-7a21-42cb-ac4a-9e688b69cc8d")
 		)
 		(pin "S"
-			(uuid "27aaae8f-065f-43f0-b2b3-a1d25b322dd3")
+			(uuid "3341d9bb-b949-46c5-8628-2f86a7bc9a4d")
 		)
 		(instances
-			(project "DMH_Multiverter_PCB_Conn"
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J1")
 					(unit 1)
@@ -3193,506 +3039,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 63.5 152.4 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 88.9 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "49d80982-f09f-495b-b1d6-1449405e9124")
-		(property "Reference" "J13"
-			(at 64.135 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 64.135 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 3 Out 2"
-			(at 63.5 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "c1fda95c-da84-4705-b682-1d60ec6bf3ff")
-		)
-		(pin "TN"
-			(uuid "452d1504-5ad0-49d7-940c-22e6a4641bef")
-		)
-		(pin "S"
-			(uuid "0bf31ea0-ae25-4eff-9608-8c61554926ca")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 63.5 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5039efbb-d04c-48bd-b193-2f95a5ca2ab0")
-		(property "Reference" "J10"
-			(at 64.135 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 64.135 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 2 Out 2"
-			(at 63.5 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "5e9b41b7-4c7d-471e-8dac-547981decbf5")
-		)
-		(pin "TN"
-			(uuid "fd36f145-712f-4671-8c7c-7aa67071fe84")
-		)
-		(pin "S"
-			(uuid "5d32acb2-972f-4bef-a5c2-4bd3d37e9877")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 152.4 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62a27d58-d3dc-4e74-b0ce-d6aa441f047b")
-		(property "Reference" "J22"
-			(at 153.035 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 153.035 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 152.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 152.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 6 Out 2"
-			(at 152.4 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "e6ec5f7a-abf7-4bb5-b4b4-45627f703ae9")
-		)
-		(pin "TN"
-			(uuid "d271b89d-d898-4c94-806c-fc9870f5b5b6")
-		)
-		(pin "S"
-			(uuid "97b65bf1-8dab-4cb7-8c0a-efaaed2748d6")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72fb5a73-cc7e-4b4e-a342-916cd54f339c")
-		(property "Reference" "J11"
-			(at 24.765 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Mult 3 In"
-			(at 25.4 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "0f84708b-00c8-4212-9918-e9485a8782cb")
-		)
-		(pin "TN"
-			(uuid "8325ed08-ab93-4c5f-bfc3-625e1e24996a")
-		)
-		(pin "S"
-			(uuid "bb27568b-c0b4-49cf-bf68-ca9bc2747617")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b2764bf-df50-4e7f-ad15-f4577cca4632")
-		(property "Reference" "J2"
-			(at 24.765 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Att A Out"
-			(at 25.4 223.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "c9fcc4af-2542-4e57-8a10-f382926166ea")
-		)
-		(pin "TN"
-			(uuid "31dc9a33-c129-49fc-b37a-1b873aae809f")
-		)
-		(pin "S"
-			(uuid "ef05fbc3-6a87-4f8b-a0d0-adf46905e928")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 152.4 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dd21776-131a-4fe6-ad83-962e6120a05d")
-		(property "Reference" "J18"
-			(at 153.035 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 153.035 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 5 Out 1"
-			(at 152.4 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "23378ddf-0843-4062-a44f-f78217078ca9")
-		)
-		(pin "TN"
-			(uuid "866de7ee-c0f4-4249-b5c8-e59dd368ad48")
-		)
-		(pin "S"
-			(uuid "cc167c32-796e-4321-bdd3-e2fa22801b6f")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 88.9 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95c8db87-3a14-4490-b051-2e47ef8cf59f")
+		(uuid "2d4dbc72-5fe8-4c2b-8471-c302b06ba1cb")
 		(property "Reference" "J50"
-			(at 87.122 184.658 0)
+			(at 87.122 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,17 +3056,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 87.122 187.198 0)
+		(property "Value" "Conn_01x08"
+			(at 88.9 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 88.9 195.58 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 88.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 195.58 0)
+			(at 88.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,616 +3082,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 195.58 0)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 88.9 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
-			(uuid "2399cbf1-f930-4ad2-b4d6-e9dea44aec11")
+			(uuid "779e502c-c118-40ae-b58d-6a0ef3734bf6")
 		)
 		(pin "1"
-			(uuid "ad0b4107-72e4-458e-8443-6d1ca8c9f24a")
+			(uuid "54165b09-3758-40f0-9a1b-7f5bab16b498")
 		)
 		(pin "6"
-			(uuid "c54ed846-5a27-484e-840e-c36a6a1b8ecc")
+			(uuid "4835671b-2abf-4a28-b6df-ea9b6c1f6c0d")
 		)
 		(pin "2"
-			(uuid "9e3c3ad3-3065-455b-88bc-1aac6b72f4b1")
+			(uuid "b34fbbe3-7d9f-41ff-9327-00ab12a89a22")
 		)
 		(pin "4"
-			(uuid "0cc75b9b-2768-4d6c-ada7-706c0fe17585")
+			(uuid "6f7d8e8d-8e9d-453d-a2de-f5540d7b96cd")
 		)
 		(pin "5"
-			(uuid "387275c6-e5d9-4e0a-bb23-da8363ab6861")
+			(uuid "23dd0bd4-02e0-4757-bff8-0d9dda159b04")
+		)
+		(pin "8"
+			(uuid "d22953d8-4007-4862-901f-b8ebcbb4d30d")
+		)
+		(pin "7"
+			(uuid "9639f5ef-a664-4845-acfb-374ed3ce765b")
 		)
 		(instances
-			(project "DMH_Multiverter_PCB_Conn"
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 152.4 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3a400e7-b6b4-4c9c-a45e-45616d17fa56")
-		(property "Reference" "J16"
-			(at 153.035 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 153.035 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 4 Out 2"
-			(at 152.4 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "ed3506e2-f4f4-40c8-a665-d8c512a02ac5")
-		)
-		(pin "TN"
-			(uuid "5a4b621a-8064-4319-b7a0-744cd20bacd5")
-		)
-		(pin "S"
-			(uuid "7b4e0213-0a9a-4a9b-9930-a4b0de623ee5")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 152.4 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d28634ea-a1cd-452e-9cca-1fc41f8c9ee0")
-		(property "Reference" "J19"
-			(at 153.035 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 153.035 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 5 Out 2"
-			(at 152.4 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "1cd64fec-4d77-4c71-a617-4bbf9a27d981")
-		)
-		(pin "TN"
-			(uuid "05102ed7-650f-44df-86a4-510e6bab4284")
-		)
-		(pin "S"
-			(uuid "e02bc8af-dd9e-46ee-b1ab-f8f335d1c60d")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 152.4 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2a0b961-c5c5-403c-aacc-44bde84bb4cf")
-		(property "Reference" "J21"
-			(at 153.035 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 153.035 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 152.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 6 Out 1"
-			(at 152.4 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "07816c36-95c9-4366-80ab-a5468221ffea")
-		)
-		(pin "TN"
-			(uuid "a7c74d68-6757-4ad6-99a1-fd553e94a93f")
-		)
-		(pin "S"
-			(uuid "625cdd8f-2836-4419-88c0-c8a25d700d65")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d922218c-ba60-4c5a-9c3a-7d0e25ffff31")
-		(property "Reference" "J5"
-			(at 24.765 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Mult 1 In"
-			(at 25.4 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "db044089-600c-412e-ab02-d02c125d6105")
-		)
-		(pin "TN"
-			(uuid "3c9f9071-211e-481b-aaff-e5da34d5913f")
-		)
-		(pin "S"
-			(uuid "3887b7c4-fd6f-4c08-a3f1-9d34480822ae")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 25.4 241.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9566d41-0302-48a4-b220-32602a085e66")
-		(property "Reference" "J3"
-			(at 24.765 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 24.765 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 25.4 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 25.4 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Att B In"
-			(at 25.4 248.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "f6a49e2a-0746-4661-afae-1abae6bbadf4")
-		)
-		(pin "TN"
-			(uuid "bdf1dd03-5d4a-4f47-9f9c-b18227abd8cd")
-		)
-		(pin "S"
-			(uuid "e3a19347-7a58-4bee-8e7e-442460598387")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 152.4 25.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc73615c-7cf2-4076-a482-73d9577cb8e8")
-		(property "Reference" "J15"
-			(at 153.035 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 153.035 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 152.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 152.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "M 4 Out 1"
-			(at 152.4 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "c52644d5-7476-45af-87f4-e1a8285abba9")
-		)
-		(pin "TN"
-			(uuid "cae88dff-4be3-4d26-b7a8-36f8f1391a80")
-		)
-		(pin "S"
-			(uuid "1e2c5e3d-8853-4ef3-aa6e-9352c23daddb")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 114.3 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7e7d3fd-e534-457e-a7e5-823abd5e7e45")
-		(property "Reference" "J14"
-			(at 113.665 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 113.665 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 114.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 114.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Mult 4 In"
-			(at 114.3 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "f0a24478-2427-44d7-a6ae-fad00b48cc8b")
-		)
-		(pin "TN"
-			(uuid "e67d2ad1-b9df-4e9e-b0e0-5a9497e4af39")
-		)
-		(pin "S"
-			(uuid "f90a287e-a7dc-48fe-b18f-f598aa1fdb65")
-		)
-		(instances
-			(project "DMH_Multiverter_PCB_Conn"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4351,8 +3133,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec4b0bdb-5ff3-4b1d-9422-45461502205b")
-		(property "Reference" "#PWR0101"
+		(uuid "526c83e8-d214-4926-b081-08543b8fa368")
+		(property "Reference" "#PWR03"
 			(at 44.45 284.48 0)
 			(effects
 				(font
@@ -4397,12 +3179,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d5425a6-dc9a-45a1-9d3a-855e12e159a2")
+			(uuid "fe1fda3e-d5cc-4826-a953-821c6e9f43ee")
 		)
 		(instances
-			(project "DMH_Multiverter_PCB_Conn"
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "#PWR0101")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4410,15 +3192,15 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 114.3 127 0)
+		(at 25.4 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed1edb54-1dc3-4b68-a781-e2d28ca7f6b4")
-		(property "Reference" "J20"
-			(at 113.665 118.11 0)
+		(uuid "57a7c7f5-1fbc-4343-a1b0-c0f086407070")
+		(property "Reference" "J3"
+			(at 24.765 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +3208,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 113.665 120.65 0)
+			(at 24.765 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +3216,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 114.3 127 0)
+			(at 25.4 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +3225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 127 0)
+			(at 25.4 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +3234,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 114.3 127 0)
+			(at 25.4 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,8 +3242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Mult 6 In"
-			(at 114.3 134.366 0)
+		(property "Function" "Att B Input"
+			(at 25.4 197.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,52 +3254,51 @@
 			)
 		)
 		(pin "T"
-			(uuid "271fc6fd-7cc8-4f14-8526-9b4ac9a518e8")
+			(uuid "918f9374-09ae-4f51-a98f-19e45a8d525f")
 		)
 		(pin "TN"
-			(uuid "92226799-82ea-4fb5-a37b-7c7196e6a411")
+			(uuid "c2027cec-08e0-4a57-a44b-285deaa99e3e")
 		)
 		(pin "S"
-			(uuid "f76bb379-da7c-4cca-8f5f-dd1e8dc674a7")
+			(uuid "e2588760-55b9-4c9a-9b8f-806b6e027041")
 		)
 		(instances
-			(project "DMH_Multiverter_PCB_Conn"
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
-					(reference "J20")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 88.9 223.52 0)
+		(lib_id "Device:R_US")
+		(at 114.3 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(uuid "f861199e-a8db-45f8-9cf7-7d97fd358959")
-		(property "Reference" "J60"
-			(at 87.122 212.598 0)
+		(fields_autoplaced yes)
+		(uuid "5c49b0d5-24bb-4603-ba28-91f8e77afddc")
+		(property "Reference" "R7"
+			(at 114.3 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 87.122 215.138 0)
+		(property "Value" "10k"
+			(at 114.3 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 88.9 223.52 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 114.554 202.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +3307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 223.52 0)
+			(at 114.3 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,8 +3315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 223.52 0)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,36 +3324,1385 @@
 				(hide yes)
 			)
 		)
-		(property "Function" ""
-			(at 88.9 223.52 0)
+		(pin "1"
+			(uuid "7546fb6b-0596-422f-8a96-36c446ef99bb")
+		)
+		(pin "2"
+			(uuid "9a3e2418-56bc-4883-8938-8b70312882f0")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ZPDxx")
+		(at 101.6 203.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "5d2d02f7-9c0f-4418-a2f3-71e5d0f05a01")
+		(property "Reference" "D3"
+			(at 101.6 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "ZPD5V1"
+			(at 101.6 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 101.6 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+			(at 101.6 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mW Zener Diode, DO-35"
+			(at 101.6 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "5V1"
+			(at 101.6 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42bc4888-831d-48d8-8c4c-952f6a11d50c")
+		)
+		(pin "2"
+			(uuid "a79d814a-7b1a-4dc2-994a-b9dea968ff9c")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 63.5 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62c10e1a-73c0-49aa-8555-80ff4a30d0c9")
+		(property "Reference" "J8"
+			(at 64.135 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 64.135 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 1 Output 1"
+			(at 63.5 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "202b1e6b-3745-4f8e-b920-a0a57dd886a1")
+		)
+		(pin "TN"
+			(uuid "a35c272e-83d1-44c2-ae7d-b34cb9da41af")
+		)
+		(pin "S"
+			(uuid "d0d1a67b-a726-486c-8824-f61e1cc84883")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 152.4 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e6645b0-6455-4c2c-9bc5-9368360c4ded")
+		(property "Reference" "J14"
+			(at 153.035 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 153.035 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 3 Output 1"
+			(at 152.4 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "06a60da7-0dca-4bca-895a-bf19898e24ae")
+		)
+		(pin "TN"
+			(uuid "bdc8db96-fc67-40d7-adaa-3c844797ae66")
+		)
+		(pin "S"
+			(uuid "336b77cd-1d9e-4178-a5eb-3734d0718e80")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 63.5 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "811f9f20-2d5f-4e00-909a-2067309e5019")
+		(property "Reference" "J11"
+			(at 64.135 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 64.135 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 2 Output 1"
+			(at 63.5 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "be485e4f-b559-40d1-86cd-6bce880c7c34")
+		)
+		(pin "TN"
+			(uuid "53a6ecbb-021f-4bf5-beb0-ed61dfa095b7")
+		)
+		(pin "S"
+			(uuid "803c8725-2bd3-493d-af66-7a2eea70f722")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 25.4 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "855943f5-6ca5-42a0-a1c0-0e8fc71330a4")
+		(property "Reference" "J6"
+			(at 24.765 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 24.765 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 25.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 25.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Att C Output"
+			(at 25.4 274.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "42ad9715-0c11-44d3-8aa3-ca58e54f4565")
+		)
+		(pin "TN"
+			(uuid "9e9d99bf-1af8-48a4-abcc-7926ac204d32")
+		)
+		(pin "S"
+			(uuid "0a1fc19a-5055-4d33-bd75-6ec7c49294bc")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 127 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91a3dfd9-c93f-4e8d-a09c-103cd58f674b")
+		(property "Reference" "#PWR04"
+			(at 127 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 127 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 127 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a6cdeaf-6754-4750-b8a4-36a6f1c5d3b0")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91bd843c-dd35-4521-8299-f9aff7541eed")
+		(property "Reference" "J7"
+			(at 24.765 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 24.765 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 1 Input"
+			(at 25.4 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "f9c0c6c9-812c-46f5-a5a5-be20fd41e368")
+		)
+		(pin "TN"
+			(uuid "5be94fc5-10fc-4188-9e1f-04d8d9918b7f")
+		)
+		(pin "S"
+			(uuid "4f67bfb8-0e27-4bf7-bddd-c8d573626084")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 63.5 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93a4046e-b39a-40ab-8cc9-b6ac02c215cc")
+		(property "Reference" "J9"
+			(at 64.135 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 64.135 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 1 Output 2"
+			(at 63.5 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "4ffdbb26-321d-4418-9c4d-6473f91f7bdf")
+		)
+		(pin "TN"
+			(uuid "61727f7e-5877-47dc-a40c-519f40efa6eb")
+		)
+		(pin "S"
+			(uuid "758e969b-fcfb-4471-8acc-3d895a9b0b88")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 63.5 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94db7f3b-8090-42b9-ad85-04186d85789e")
+		(property "Reference" "J12"
+			(at 64.135 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 64.135 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 2 Output 2"
+			(at 63.5 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "50d9e10d-6bce-4050-acc3-77edf61c3413")
+		)
+		(pin "TN"
+			(uuid "95cf0780-e2f9-482e-b3dc-6cb77419a4ab")
+		)
+		(pin "S"
+			(uuid "f454232c-ad49-4d46-85b0-af2c69fb8bd1")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 88.9 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91b4d6e-8074-44aa-b12a-144a4284cb34")
+		(property "Reference" "J60"
+			(at 87.122 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 88.9 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
-			(uuid "fd4c13a9-d5e4-4528-a31c-e0498d4b2f0b")
+			(uuid "1849d74f-1051-403c-858c-1bf8a0b51ce8")
 		)
 		(pin "1"
-			(uuid "49171130-6a7d-41c8-a8bc-bb25ef558db2")
+			(uuid "9b1aaf23-c98f-4302-bcbd-cfbea2f233cb")
 		)
 		(pin "6"
-			(uuid "6683c639-cb6d-4e26-b62f-440fb816508d")
+			(uuid "a57a6251-cca9-44c8-9cbd-e8f33fcfd53d")
 		)
 		(pin "2"
-			(uuid "3150a880-b88c-46f4-8701-04a0d27866ce")
+			(uuid "8c870e8f-9e45-469d-889b-e9106572fa16")
 		)
 		(pin "4"
-			(uuid "2a1a647f-1a52-4a02-90c8-f2c41e58d541")
+			(uuid "6583507d-865e-430f-b0a7-c93923aaaf13")
 		)
 		(pin "5"
-			(uuid "32f716bc-479b-44a9-beda-e5f4a5b897dd")
+			(uuid "1d75de64-34dc-491e-bb2b-13573792b169")
+		)
+		(pin "8"
+			(uuid "87d59b39-2a24-4268-a3c6-6f7c4bb92d39")
+		)
+		(pin "7"
+			(uuid "3e1d1d4a-22a4-4c9f-8e6d-62361fb4ce6e")
 		)
 		(instances
-			(project "DMH_Multiverter_PCB_Conn"
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:BackBone_Connector_6pin")
+		(at 125.73 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b874ab92-623f-415d-ab0b-b320d4c3f155")
+		(property "Reference" "J200"
+			(at 127 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BackBone_Connector_6pin"
+			(at 127 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:IDC-Header_2x03_P2.54mm_Vertical_BackBone"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a15caa39-99c7-4c2e-9700-c6d863bbfc82")
+		)
+		(pin "1"
+			(uuid "045a125b-0fc1-43c4-8ac6-e568317d31b4")
+		)
+		(pin "3"
+			(uuid "ece701b3-7240-4d18-bd30-44b6a9af8678")
+		)
+		(pin "6"
+			(uuid "40a85011-c670-410c-af2c-f89db3e6fd96")
+		)
+		(pin "5"
+			(uuid "aac699c5-1dd7-4bbb-9553-39603eba6dfe")
+		)
+		(pin "2"
+			(uuid "68ffc183-eab9-4aa7-941f-2c6966ab578e")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 25.4 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf7c98f3-9727-4f74-98f7-e5529cf8ce5d")
+		(property "Reference" "J2"
+			(at 24.765 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 24.765 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Att A Output"
+			(at 25.4 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "e9c24dc4-9af0-4c9f-841f-62e2dd3d3355")
+		)
+		(pin "TN"
+			(uuid "cf68d54e-9797-454c-ba10-03acc53b2e80")
+		)
+		(pin "S"
+			(uuid "d2996ffd-f907-49df-8f33-1c0f11754d9e")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 25.4 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd53d534-3549-4de9-af9c-09b8641c215f")
+		(property "Reference" "J4"
+			(at 24.765 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 24.765 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 25.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 25.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Att B Output"
+			(at 25.4 223.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "92d96873-a1f6-4fd1-87cd-fb93f149083d")
+		)
+		(pin "TN"
+			(uuid "e7fd1134-cd9e-4853-a437-b422915a9609")
+		)
+		(pin "S"
+			(uuid "2ac9065a-cab1-4030-b56a-dee419ef7962")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 114.3 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dec20313-5f45-4598-8c09-f795e8725420")
+		(property "Reference" "J13"
+			(at 113.665 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 113.665 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 3 Input"
+			(at 114.3 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "cc253a2a-834b-49dd-bc43-f2ac48ef843f")
+		)
+		(pin "TN"
+			(uuid "84d648e8-af1a-4633-92bc-64d9dc57b0e2")
+		)
+		(pin "S"
+			(uuid "47efd0f4-faee-4b74-9cd5-8931e4238e56")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 25.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed1d348a-52a3-4712-a4ba-6e6bc6c591a2")
+		(property "Reference" "J10"
+			(at 24.765 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 24.765 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 2 Input"
+			(at 25.4 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "53ceebab-e072-462b-bc7c-965cf8948a91")
+		)
+		(pin "TN"
+			(uuid "7b20fd46-482f-4515-9609-95825f5dc0e5")
+		)
+		(pin "S"
+			(uuid "812376fa-d8c0-48c2-91c7-037f8eace98f")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 152.4 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c5dab8-7489-4f73-981f-8bc5a052e5f5")
+		(property "Reference" "J15"
+			(at 153.035 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 153.035 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Mult 3 Output 2"
+			(at 152.4 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "3223fd8a-3738-4e2d-bf49-b897e373b709")
+		)
+		(pin "TN"
+			(uuid "c18ef4d9-e889-43c2-8695-34516fd57f52")
+		)
+		(pin "S"
+			(uuid "e71eb46d-6a65-4cd4-8cf1-16dc668e0d7d")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
+		(at 25.4 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f88a29f1-3fdd-4655-9b95-6846858e4bbb")
+		(property "Reference" "J5"
+			(at 24.765 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 24.765 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 25.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 25.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Att C Input"
+			(at 25.4 248.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "6149e4f6-19c9-4909-8397-4fe21301a4e9")
+		)
+		(pin "TN"
+			(uuid "caa84c73-a53c-41c6-84d0-e6e9fa6e9c65")
+		)
+		(pin "S"
+			(uuid "cfa7965a-6fdd-47f4-92b3-3e4e0b1c7c90")
+		)
+		(instances
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "J5")
 					(unit 1)
 				)
 			)

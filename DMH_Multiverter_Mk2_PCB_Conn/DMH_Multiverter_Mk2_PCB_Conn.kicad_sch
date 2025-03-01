@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(no_connect
-		(at 38.1 101.6)
+		(at 38.1 93.98)
 		(uuid "055c5cb4-ca6e-4bbe-a7c7-db4d98492764")
 	)
 	(no_connect
@@ -19,12 +19,20 @@
 		(uuid "39a85dfb-4aad-423b-b2b7-fd579c3265cd")
 	)
 	(no_connect
-		(at 38.1 88.9)
+		(at 38.1 81.28)
 		(uuid "4e7cf7ae-c8d3-46a6-beb9-60db59f9e81f")
 	)
 	(no_connect
-		(at 38.1 105.41)
+		(at 38.1 97.79)
 		(uuid "7a526f25-1714-4a80-bfbd-edf54b838541")
+	)
+	(no_connect
+		(at 38.1 105.41)
+		(uuid "db6e641f-7143-4f7a-a72b-9ecceb57b62e")
+	)
+	(no_connect
+		(at 38.1 109.22)
+		(uuid "e14e2a91-53c2-46cc-8d59-038211cf43a9")
 	)
 	(sheet
 		(at 16.51 76.2)
@@ -62,7 +70,7 @@
 			)
 		)
 		(pin "Att B Output Jack" input
-			(at 38.1 105.41 0)
+			(at 38.1 97.79 0)
 			(uuid "a3cf45dc-535a-4229-9325-dbe02c615116")
 			(effects
 				(font
@@ -72,7 +80,7 @@
 			)
 		)
 		(pin "Att B Input Jack" output
-			(at 38.1 101.6 0)
+			(at 38.1 93.98 0)
 			(uuid "c7e095ee-ec76-4c5c-a1c9-d312a484409d")
 			(effects
 				(font
@@ -82,7 +90,7 @@
 			)
 		)
 		(pin "Att A Input Jack" output
-			(at 38.1 85.09 0)
+			(at 38.1 81.28 0)
 			(uuid "435e7c20-1fe0-4be6-a078-183635d0f241")
 			(effects
 				(font
@@ -92,7 +100,7 @@
 			)
 		)
 		(pin "Att A Output Jack" input
-			(at 38.1 88.9 0)
+			(at 38.1 85.09 0)
 			(uuid "f0334ec6-75fc-4737-afe0-cb82f6c50cdb")
 			(effects
 				(font
@@ -101,8 +109,28 @@
 				(justify right)
 			)
 		)
+		(pin "Att C Input Jack" output
+			(at 38.1 105.41 0)
+			(uuid "7658b7d5-db87-4ac6-8974-62816ae03435")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Att C Output Jack" input
+			(at 38.1 109.22 0)
+			(uuid "ac663c52-f386-48fe-a368-d18ce5942dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "DMH_Multiverter_PCB_Conn"
+			(project "DMH_Multiverter_Mk2_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
