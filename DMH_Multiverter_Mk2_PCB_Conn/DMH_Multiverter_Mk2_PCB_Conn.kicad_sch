@@ -1,0 +1,118 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "58f4306d-5387-4983-bb08-41a2313fd315")
+	(paper "A4")
+	(title_block
+		(rev "1")
+		(company "DMH Instruments")
+		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 38.1 101.6)
+		(uuid "055c5cb4-ca6e-4bbe-a7c7-db4d98492764")
+	)
+	(no_connect
+		(at 38.1 85.09)
+		(uuid "39a85dfb-4aad-423b-b2b7-fd579c3265cd")
+	)
+	(no_connect
+		(at 38.1 88.9)
+		(uuid "4e7cf7ae-c8d3-46a6-beb9-60db59f9e81f")
+	)
+	(no_connect
+		(at 38.1 105.41)
+		(uuid "7a526f25-1714-4a80-bfbd-edf54b838541")
+	)
+	(sheet
+		(at 16.51 76.2)
+		(size 21.59 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
+		(property "Sheetname" "Inputs and Outputs"
+			(at 16.51 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
+			(at 16.51 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Att B Output Jack" input
+			(at 38.1 105.41 0)
+			(uuid "a3cf45dc-535a-4229-9325-dbe02c615116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Att B Input Jack" output
+			(at 38.1 101.6 0)
+			(uuid "c7e095ee-ec76-4c5c-a1c9-d312a484409d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Att A Input Jack" output
+			(at 38.1 85.09 0)
+			(uuid "435e7c20-1fe0-4be6-a078-183635d0f241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Att A Output Jack" input
+			(at 38.1 88.9 0)
+			(uuid "f0334ec6-75fc-4737-afe0-cb82f6c50cdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DMH_Multiverter_PCB_Conn"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
