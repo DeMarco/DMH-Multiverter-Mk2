@@ -1,0 +1,16 @@
+Reference,Value,Footprint,Qty,
+"C1,C2",47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,2,
+"C3,C4",100nF,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm,2,
+"D1, D2",SB140,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,2,
+"D3,D4,D5",ZPD5V1,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,3,
+"J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15",TS_Jack_6.35mm_Sw,Switchcraft 112APCX,15,https://nl.mouser.com/ProductDetail/Switchcraft/112APCX?qs=iwvYsH9bSFaMISHxPzA5dw%3D%3D
+"J50,J60",Conn_01x08,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,2,
+J100,IDC_02x05,IDC-Header_2x05_P2.54mm_Vertical,1,
+J200,BackBone_Connector_6pin,IDC-Header_2x03_P2.54mm_Vertical,1,
+"R1,R3,R5",33k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3,
+"R2,R4,R6",1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3,
+"R7,R8,R9",4k7,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3,
+"RV1,RV2,RV3",100k,Potentiometer_TT_P110KH1-1F15BR100K,3,https://nl.mouser.com/ProductDetail/BI-Technologies-TT-Electronics/P110KH1-1F15BR100K?qs=56eeD6vBg8h%252BTKjsaHy9ww%3D%3D
+"RV4,RV5,RV6",50k,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,3,
+U1,TL074,Package_DIP:DIP-14_W7.62mm_Socket,1,
+Small Knobs,RN-99E(6.4mm),,3,https://www.conrad.nl/nl/p/sci-rn-99e-6-4mm-rn-99e-6-4mm-draaiknop-zwart-wit-o-x-h-22-9-mm-x-12-7-mm-1-stuk-s-1304029.html
